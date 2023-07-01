@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Execution Result</title>
+</head>
+<body>
+    <h1>Code Execution Result</h1>
+
+    {% if output %}
+        <h3>Output:</h3>
+        <pre>{{ output }}</pre>
+    {% endif %}
+
+    {% if error %}
+        <h3>Error:</h3>
+        <pre>{{ error }}</pre>
+    {% endif %}
+</body>
+</html>
